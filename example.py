@@ -26,8 +26,8 @@ config["online_tools"] = False  # 禁用在线工具以减少API调用
 ta = TradingAgentsGraph(debug=True, config=config)
 
 # 选择股票代码和日期
-ticker = "8001"  # 苹果公司
-date = "2025-08-29"  # 分析日期
+ticker = "8031"  # 苹果公司
+date = "2025-09-03"  # 分析日期
 
 # 运行分析并获取决策
 print(f"正在分析 {ticker} 在 {date} 的交易决策...")
